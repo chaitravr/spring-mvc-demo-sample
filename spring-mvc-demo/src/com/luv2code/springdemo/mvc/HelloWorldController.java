@@ -15,6 +15,7 @@ public class HelloWorldController {
 	
 	@RequestMapping("/showForm")
 	public String showForm(){
+		System.out.println("Test");
 		return "helloworld-form";
 	}
 	
